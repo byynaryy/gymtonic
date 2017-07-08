@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*div {
+    border: 1px solid red;
+}*/
+
+#gym-tonic-header, #gym-tonic-content, #gym-tonic-footer {
+    /*margin: 0 auto;*/
+    clear: both;
+    width: 100%;
+}
+
+
+/* LISTS  ###################################################################################################*/
+
+.nav-utility li {
+    display: table-cell;
+    padding: 20px 0  0 40px ;
+}
+
+
+.nav-links li {
+    display: table-cell;
+    padding-right: 40px;
+}
+
+
+/* HEADER  ###################################################################################################*/
+
+#gym-tonic-header {
+}
+
+
+
+
+
+
+
+/* HEADININGS ###############################################################################################*/
+
+
+
+/* ROWS #####################################################################################################*/
+
+.row-large {
+   width: 100%;
+   margin: 0 auto;
+   clear: both; 
+}
+
+
+.row {
+   width: 50%;
+   margin: 0 auto;
+   clear: both; 
+}
+
+
+.row:before, .row:after {
+    content: "";
+    display: table;
+}
+
+
+.row:after {
+    clear: both;
+}
+
+
+/* COLUMNS  ##################################################################################################*/
+
+.col {
+    display: block;
+    float: left;
+}
+
+
+.col-right {
+    display: block;
+    float: right;
+}
+
+
+.span-2-of-10 {
+    width: 20%;
+}
+
+
+.span-3-of-12 {
+    width: 25%
+}
+
+
+.span-4-of-12 {
+    width: 33.33%
+}
+
+
+.span-6-of-12 {
+    width: 50%;
+}
+
+
+.span-12-of-12 {
+    width: 100%;
+}
+
+
+
+
+
+
+
