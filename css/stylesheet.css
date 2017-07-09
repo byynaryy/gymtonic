@@ -11,6 +11,7 @@
     /*margin: 0 auto;*/
     clear: both;
     width: 100%;
+    display: block;
 }
 
 
@@ -31,6 +32,17 @@
 /* HEADER  ###################################################################################################*/
 
 #gym-tonic-header {
+    background-image: url("../images/header-background.png");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
+    height: 674px;
+    font-family:;
+    font-weight: 600; 
+    text-rendering: optimizelegibility;
 }
 
 
