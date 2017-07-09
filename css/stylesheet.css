@@ -32,7 +32,8 @@
 /* HEADER  ###################################################################################################*/
 
 #gym-tonic-header {
-    background-image: url("../images/header-background.png");
+    /*background-image: url("../images/header-background.png");*/
+    background-image: url("../images/back.jpg");
     background-position: 50% 50%;
     background-size: cover;
     background-position: center;
@@ -46,6 +47,12 @@
 }
 
 
+/* CONTENT  ###################################################################################################*/
+
+#gym-tonic-content img {
+    width:270px;
+    height: 180px;
+}
 
 
 
