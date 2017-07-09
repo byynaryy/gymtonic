@@ -3,9 +3,17 @@
     padding: 0;
 }
 
-/*div {
+
+div {
     border: 1px solid red;
-}*/
+}
+
+
+/* PAGE  ###################################################################################################*/
+
+#gym-tonic-page {
+}
+
 
 #gym-tonic-header, #gym-tonic-content, #gym-tonic-footer {
     /*margin: 0 auto;*/
@@ -15,32 +23,17 @@
 }
 
 
-/* LISTS  ###################################################################################################*/
-
-.nav-utility li {
-    display: table-cell;
-    padding: 20px 0  0 40px ;
-}
-
-
-.nav-links li {
-    display: table-cell;
-    padding-right: 40px;
-}
-
-
 /* HEADER  ###################################################################################################*/
 
 #gym-tonic-header {
-    /*background-image: url("../images/header-background.png");*/
-    background-image: url("../images/back.jpg");
+    background-image: url("../images/header-background.jpg");
     background-position: 50% 50%;
     background-size: cover;
     background-position: center;
     background-position-x: center;
     background-position-y: center;
     background-attachment: fixed;
-    height: 674px;
+    height: 4550px;
     font-family:;
     font-weight: 600; 
     text-rendering: optimizelegibility;
@@ -49,16 +42,32 @@
 
 /* CONTENT  ###################################################################################################*/
 
-#gym-tonic-content img {
-    width:270px;
-    height: 180px;
+.gallery {
+    margin: 5px;
+    height: 200px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 200px;
 }
 
 
+h2 {
+    padding: 60px 0 20px 0;
+    font-family: Sans-serif;
+    font-size: 30px;
+}
 
 
+h3 {
+    padding: 0 0 10px 0;
+    font-family: Sans-serif;
+    font-size: 20px;
+}
 
-/* HEADININGS ###############################################################################################*/
+/* FOOTER  ###################################################################################################*/
+
 
 
 
@@ -72,7 +81,8 @@
 
 
 .row {
-   width: 50%;
+   zoom: 1; /* For IE 6/7 (trigger hasLayout)*/
+   max-width: 1140px;
    margin: 0 auto;
    clear: both; 
 }
@@ -109,7 +119,7 @@
 
 
 .span-3-of-12 {
-    width: 25%
+    width: 23.8%
 }
 
 
@@ -129,7 +139,48 @@
 
 
 
+/* LOGO  ###################################################################################################*/
+
+.logo {
+    padding: 20px 0 0 60px;
+}
 
 
+/* LISTS  ###################################################################################################*/
+
+.nav-utility {
+    padding: 30px 60px 0 0;
+    font-family: Sans-serif;
+    font-size: 20px;
+}
 
 
+.nav-utility li {
+    display: inline;
+    padding-left: 24px;
+}
+
+
+/* LINKS  ###################################################################################################*/
+
+.nav-utility a:link {
+    text-decoration: none;
+    color: #3e4440;
+    padding-top: 10px;
+}
+
+
+.nav-utility a:visited {
+    color: #004f87;
+}
+
+
+.nav-utility a:hover {
+    border-top: 2px solid #ab253e;
+}
+
+
+.nav-utility a:active {
+    color: #ab253e;
+    border-top: 2px solid #004f87:
+}
