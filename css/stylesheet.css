@@ -9,9 +9,9 @@ body {
 }
 
 
-div {
+/*div {
     border: 1px solid red;
-}
+}*/
 
 
 /* PAGE  ###################################################################################################*/
@@ -22,6 +22,73 @@ div {
 
 #gym-tonic-header, #gym-tonic-content, #gym-tonic-footer {
 }
+
+
+
+/* HEADER  ###################################################################################################*/
+
+
+#gym-tonic-header {
+    background-image: url("../images/header-background.png");
+}
+
+
+.logo-colmn {
+    float: left;
+}
+
+
+.logo {
+    display: block;
+    margin: 40px 0 0 10px;
+}
+
+.nav-colmn {
+    float: right;
+}
+
+
+.nav-bar {
+    list-style-type: none;
+    margin: 0 20px 0 0;
+}
+
+
+.nav-bar li {
+    display: inline;
+    float: left;
+}
+
+
+.nav-bar li a:link {
+    display: block;
+    margin-left: 40px;
+    font-family: Sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: #4D4343;
+}
+
+
+
+.nav-bar li a:visited {
+    text-decoration: none;
+    color: #ab253e;
+}
+
+
+
+.nav-bar li a:hover {
+    text-decoration: none;
+    color: #004f87;
+    border-top: 2px solid #004f87;
+    padding-top: 10px;
+}
+
+
+
+
+
 
 
 
@@ -52,6 +119,11 @@ div {
 
 .span-3-of-12 {
         width: 23.8%;
+}
+
+
+.span-6-of-12 {
+        width: 49.2%; 
 }
 
 
