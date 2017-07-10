@@ -5,7 +5,7 @@
 
 
 body {
-    background-color: #D6CDCD; 
+    background-color: #EAEAEA; 
 }
 
 
@@ -21,8 +21,16 @@ body {
 
 
 #gym-tonic-header, #gym-tonic-content, #gym-tonic-footer {
+    margin-bottom: 40px;
 }
 
+
+.border-line {
+    border: 0.5px solid #727070;
+    width: 96%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
 
 
 /* HEADER  ###################################################################################################*/
@@ -30,6 +38,9 @@ body {
 
 #gym-tonic-header {
     background-image: url("../images/header-background.png");
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 1000px;
 }
 
 
@@ -73,7 +84,7 @@ body {
 
 .nav-bar li a:visited {
     text-decoration: none;
-    color: #ab253e;
+    color: #727070;
 }
 
 
@@ -81,12 +92,34 @@ body {
 .nav-bar li a:hover {
     text-decoration: none;
     color: #004f87;
-    border-top: 2px solid #004f87;
+    border-top: 2px solid #ab253e;
     padding-top: 10px;
 }
 
 
 
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+
+.spanh1 {
+    font-family: Sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    color: #ab253e;
+}
+
+
+.getfit {
+    font-family: Sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: #727070;
+
+}
 
 
 
@@ -100,6 +133,7 @@ body {
 .row {
     zoom: 1; /* For IE 6/7 (trigger hasLayout) */
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 
@@ -132,18 +166,21 @@ body {
 .gallery {
     margin: 5px;
     display: inline-block;
+    left: 50%;
 }
 
 .gallery img {
-    width: 100%;
+    /*width: 100%;*/
+    width: 300px;
     height: auto;
     margin: 0 auto;
 }
 
 h2 {
-    padding: 40px 0 0 0;
-    font-family: Sans-serif;
+    font-family:'Lato', Sans-serif;
     font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
 }
 
 
@@ -151,6 +188,7 @@ h3 {
     padding: 20px 0 10px 0;
     font-family: Sans-serif;
     font-size: 20px;
+    font-weight: lighter;
 }
 
 
