@@ -4,6 +4,11 @@
 }
 
 
+body {
+    background-color: #D6CDCD; 
+}
+
+
 div {
     border: 1px solid red;
 }
@@ -16,171 +21,108 @@ div {
 
 
 #gym-tonic-header, #gym-tonic-content, #gym-tonic-footer {
-    /*margin: 0 auto;*/
-    clear: both;
-    width: 100%;
-    display: block;
 }
 
-
-/* HEADER  ###################################################################################################*/
-
-#gym-tonic-header {
-    background-image: url("../images/header-background.jpg");
-    background-position: 50% 50%;
-    background-size: cover;
-    background-position: center;
-    background-position-x: center;
-    background-position-y: center;
-    background-attachment: fixed;
-    height: 4550px;
-    font-family:;
-    font-weight: 600; 
-    text-rendering: optimizelegibility;
-}
 
 
 /* CONTENT  ###################################################################################################*/
 
+
+/* ROW  ########################################*/
+
+.row {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+    margin: 0 auto;
+}
+
+
+.row:before,
+.row:after {
+    content:"";
+    display:table;
+}
+
+
+.row:after {
+    clear:both;
+}
+
+
+/* COLUMN  #######################################*/
+
+.span-3-of-12 {
+        width: 23.8%;
+}
+
+
+/* GALLERY  #######################################*/
+
 .gallery {
     margin: 5px;
-    height: 200px;
+    display: inline-block;
 }
 
 .gallery img {
     width: 100%;
-    height: 200px;
+    height: auto;
+    margin: 0 auto;
 }
 
-
 h2 {
-    padding: 60px 0 20px 0;
+    padding: 40px 0 0 0;
     font-family: Sans-serif;
     font-size: 30px;
 }
 
 
 h3 {
-    padding: 0 0 10px 0;
+    padding: 20px 0 10px 0;
     font-family: Sans-serif;
     font-size: 20px;
 }
+
 
 /* FOOTER  ###################################################################################################*/
 
 
-
-
-/* ROWS #####################################################################################################*/
-
-.row-large {
-   width: 100%;
-   margin: 0 auto;
-   clear: both; 
+#gym-tonic-footer {
+    background-color: #000000;
+    padding-bottom: 100px;
 }
 
 
-.row {
-   zoom: 1; /* For IE 6/7 (trigger hasLayout)*/
-   max-width: 1140px;
-   margin: 0 auto;
-   clear: both; 
+.media {
+    text-align: center;
 }
 
 
-.row:before, .row:after {
-    content: "";
-    display: table;
-}
-
-
-.row:after {
-    clear: both;
-}
-
-
-/* COLUMNS  ##################################################################################################*/
-
-.col {
-    display: block;
-    float: left;
-}
-
-
-.col-right {
-    display: block;
-    float: right;
-}
-
-
-.span-2-of-10 {
-    width: 20%;
-}
-
-
-.span-3-of-12 {
-    width: 23.8%
-}
-
-
-.span-4-of-12 {
-    width: 33.33%
-}
-
-
-.span-6-of-12 {
-    width: 50%;
-}
-
-
-.span-12-of-12 {
-    width: 100%;
+.social-links a{
+    margin: 20px;
 }
 
 
 
-/* LOGO  ###################################################################################################*/
-
-.logo {
-    padding: 20px 0 0 60px;
-}
-
-
-/* LISTS  ###################################################################################################*/
-
-.nav-utility {
-    padding: 30px 60px 0 0;
-    font-family: Sans-serif;
+h4 {
+    padding: 60px 0 20px 0;;
+    font-family: sans-serif;
     font-size: 20px;
+    color: white;
+    text-align: center;
 }
 
 
-.nav-utility li {
-    display: inline;
-    padding-left: 24px;
+.social-links img {
+    width: 40px;
+    height: 40px;
 }
 
 
-/* LINKS  ###################################################################################################*/
-
-.nav-utility a:link {
-    text-decoration: none;
-    color: #3e4440;
-    padding-top: 10px;
-}
 
 
-.nav-utility a:visited {
-    color: #004f87;
-}
 
 
-.nav-utility a:hover {
-    border-top: 2px solid #ab253e;
-}
 
 
-.nav-utility a:active {
-    color: #ab253e;
-    border-top: 2px solid #004f87:
-}
+
+
+
